@@ -1,5 +1,6 @@
 THE ULTIMATE STORYBLOCKS DOWNLOADER
-Now supports Images/ Videos/ Audios
+
+_Now supports Images/ Videos/ Audios_
 
 **HOW TO DOWNLOAD THE EXTENSION**
 1. **Download the Extension:**
