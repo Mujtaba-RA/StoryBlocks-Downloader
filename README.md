@@ -7,9 +7,9 @@ _Now supports Images/ Videos/ Audios_
    Download the extension file provided.⬇️
 
 2. **Open Your Browser's Extensions Page:**
-   - For Chrome: Go to [chrome://extensions](url)
-   - For Edge: Go to [edge://extensions](url)
-   - For Opera: Go to [opera://extensions](url)
+   - For Chrome: Go to chrome://extensions
+   - For Edge: Go to edge://extensions
+   - For Opera: Go to opera://extensions
 
 3. 🔧 **Enable Developer Mode:** 👨‍💻
    Look for the option to turn on Developer Mode, usually located at the top right corner of the page.
