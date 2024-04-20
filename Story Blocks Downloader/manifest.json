@@ -1,0 +1,25 @@
+{
+    "manifest_version" : 3,
+    "name" : "StoryBlocks Downloader",
+    "version" : "1.0",
+    "description" : "Download StoryBlocks content via 3rd-party sites. Buy an official subscription if you can afford it, otherwise, use this extension. Made with ❤️ from BD", 
+    "permissions" : ["clipboardWrite", "activeTab"],
+    "action" : {
+        "default_popup" : "popup.html",
+        "default_icon" : "logo.png"
+    },
+    
+
+    "icons" : {
+        "474" : "logo.png"
+    }
+
+    
+      
+
+    
+
+    
+
+    
+}
