@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Commented out: Unnecessary as extension doesn't load name. -->
+  <!-- <title>Storyblocks Downloader</title> -->
+
+  <script src="popup.js"></script>
+  <style>
+    /* Base reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #1e1e1e;
+      color: #e0e0e0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    
+    .container {
+      background: #2c2c2c;
+      padding: 30px;
+      border-radius: 10px;
+      width: 320px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      text-align: center;
+    }
+    
+    .tone-highlight {
+      color: #ff0000;
+    }
+    
+    h1 {
+      font-size: 22px;
+      margin-bottom: 15px;
+    }
+    
+    button {
+      width: 100%;
+      padding: 15px;
+      font-size: 16px;
+      color: #1e1e1e;
+      background-color: #fdce1d;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s, transform 0.15s;
+    }
+    
+    button:hover {
+      background-color: #e2bb15;
+      transform: translateY(-2px);
+    }
+    
+    .instructions {
+      font-size: 14px;
+      margin-top: 15px;
+      line-height: 1.4;
+    }
+    
+    footer {
+      margin-top: 20px;
+      font-size: 12px;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>SB Downloader PRO</h1>
+    <button id="copyButton">Get Content URL</button>
+    <div class="instructions">
+      <p>Your stock media's URL will be sent for download automatically in our servers.</p>
+    </div>
+    <footer>Made With <span class="tone-highlight">&hearts;</span> From BD</footer>
+  </div>
+</body>
+</html>
